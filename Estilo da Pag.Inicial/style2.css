@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+    font-family: fac;
+    src: url(Fontes/symtext/Symtext.ttf);
+}
+:root{
+    --cor1: #220746;
+    --cor2: #330673;
+    --cor3: #4805A6;
+    --cor4: #280559;
+   /*2 Paleta de cores dete site
+    --cor1: #3A0166;
+    --cor2: #7402CC;
+    --cor3: #8202E6;
+    --cor4: #5F02A6; */
+
+    /* Olá, Primeira Paleta de cor deste site
+    --cor0: #050000;
+    --cor1: #560000;
+    --cor2: #D60000;
+    --cor3: #562525;
+    --cor4: #A30000;*/
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor3);
+}
+header{
+    background-image: linear-gradient(to bottom,var(--cor2), var(--cor1) );
+    color: white;
+    height: 120px;
+    text-align: center;
+    padding-top: 40px;
+}
+nav{
+    background-color: var(--cor1);
+    height: 20px;
+    padding: 10px;
+
+    text-align: center;
+    margin-left: 0px;
+}
+nav > a{
+    color:white;
+    padding: 15px;
+    margin-right: 0px;
+    transition-duration: 2s;
+}
+nav > a:hover{
+    background-color: var(--cor2);
+
+}
+a{
+    text-decoration: none;
+}
+div.bloco {
+    display: inline-block;
+    
+    border: 1px solid black;
+    
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+
+    text-align: center;
+    box-shadow: 5px 5px 13px var(--cor1);
+
+}
+#b1{
+    background-color: white;
+
+    margin-top: 10px;
+
+    
+}
+#b2{
+    background-color: white;
+
+    margin-top: 10px;
+
+}
+#b3{
+    background-color: white;
+
+    margin-top: 10px;
+
+    
+}
+.em-Desenvolvimento{
+    color: var(--cor1);
+}
+li > a{
+    color: var(--cor2);
+}
+ul{
+    list-style: inside;
+    list-style-type: square;
+}
+section{
+    background-image: url(../imagens/bg2.jpg);
+    background-position: center, center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article{
+    margin: auto;
+    padding: 30px;
+
+    max-width: 950px;
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(to top, var(--cor3), var(--cor1));
+    height: 59px;
+    font-size: x-large;
+    padding-top: 30px;
+}
